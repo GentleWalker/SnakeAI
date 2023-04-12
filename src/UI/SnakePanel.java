@@ -92,7 +92,7 @@ public class SnakePanel extends JPanel implements Runnable {
 	public void run() {
 		while (true) {
 			try {
-				Thread.sleep(3); // Brzina 40 je dobra //1 za test
+				Thread.sleep(3); // Speed 40 is optimal, you can use speed 1 to test
 				this.repaint();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
